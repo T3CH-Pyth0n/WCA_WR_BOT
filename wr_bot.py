@@ -95,6 +95,16 @@ async def events(ctx, wca_id):
 
     except error.HTTPError:
         pass
-
+@client.command(name='help')
+async def help(ctx):
+    await ctx.send("WORLD RANKING BOT:-\n prefix is '.'
+\n1.WR! command:- .WR! EVENT NAME \nIt wilk return the current
+World Record of that event and it's holder.\n
+2.comp_no COMMAND:- .comp_no? WCAID \n
+It will return the no. of WCA competitions attended 
+by the person.\n
+3.events COMMAND:- .events WCAID\n
+It will return the events in which the person has competed
+".
 
 client.run(token)
