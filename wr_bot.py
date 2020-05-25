@@ -1,9 +1,11 @@
+#YOU WILL HAVE TO DOWNLOAD discord.py, bs4, urllib3 AND json THROUGH PIP. CONFIG FILE IS NOT REQUIRED 
+#AFTER THIS COPY THE ENTIRE CODE AND YOU SHOULD BE FINE.
 import discord
 from bs4 import BeautifulSoup as bs
 from discord.ext import commands
 from urllib import request, error
 import json
-from config import * #THIS CONFIG FILE CONTAINS THE PREFIX AND TOKEN. ADD YOUR OWN PREFIX AND TOKEN. THIS LINE IS NOT REQUIRED.
+from config import * #THIS CONFIG FILE CONTAINS THE PREFIX AND TOKEN. ADD YOUR OWN PREFIX AND TOKEN IN LINE 9 AND LINE 100.
 client = commands.Bot(command_prefix=prefix)
 
 event_dict = {'333': '3x3',
