@@ -105,6 +105,5 @@ It will return the no. of WCA competitions attended
 by the person.\n
 3.events COMMAND:- .events WCAID\n
 It will return the events in which the person has competed
-".
-
+.")
 client.run(token)
