@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup as bs
 from discord.ext import commands
 from urllib import request, error
 import json
-from config import *
+from config import * #THIS CONFIG FILE CONTAINS THE PREFIX AND TOKEN. ADD YOUR OWN PREFIX AND TOKEN. THIS LINE IS NOT REQUIRED.
 client = commands.Bot(command_prefix=prefix)
 
 event_dict = {'333': '3x3',
